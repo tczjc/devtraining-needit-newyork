@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Mytest</description>
+        <field>u_what_needed</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>My Set</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	g_form.setValue('u_when_needed', new date());
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-23 08:51:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61dfa5552f08a0102b58811df699b66d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>My Set</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_61dfa5552f08a0102b58811df699b66d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-23 09:26:13</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>be7d7c69dbecf3000b9d21c4059619d0</instance_id>
+        <instance_name>dev78183</instance_name>
+        <name>sys_script_client_61dfa5552f08a0102b58811df699b66d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Mytest&lt;/description&gt;&lt;field&gt;u_what_needed&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;My Set&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	g_form.setValue('u_when_needed', new date());
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-23 08:51:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;61dfa5552f08a0102b58811df699b66d&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Set&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_61dfa5552f08a0102b58811df699b66d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-23 09:26:13&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-29614532</payload_hash>
+        <record_name>My Set</record_name>
+        <reverted_from/>
+        <source>c7e597302f4860102b58811df699b6b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-23 09:26:14</sys_created_on>
+        <sys_id>a80af1d92f08a0102b58811df699b613</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17554c7af130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-23 09:26:14</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>240af1d96e08a0109084da417c724313</update_guid>
+        <update_guid_history>240af1d96e08a0109084da417c724313:-29614532,ddb8b9d93608a01062f6bfc621404952:709448374,61d731d9ea08a0103d82cf0f9b7a4064:584162948,349775596408a0102ddf82f6f96aa625:-1395797595,8f7739991008a010dc2741c7d6948255:-1918486889,4017f1999408a010b8135010e8e9f235:-2070342691,5005b159b408a0104e868ecaceb79604:-308750093,06b4fd199908a01020cf2a5ba07b083d:612051291,9164f5196b08a0108ecc1d7f4244db7b:1468972610,3c043119b408a010c8af7b5ac0e95c9d:-1907111014,ac43f9d5fc08a010ea7a776e16d582c1:200094508,76d2f1d57f08a010efdbba0cc269cd02:1437914167,a102b9150e08a010e1a40f5926dc18a9:-1069745914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-23 09:27:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3720647776a244909d1d17eadab63504</sys_id>
+        <sys_metadata>61dfa5552f08a0102b58811df699b66d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Set</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_61dfa5552f08a0102b58811df699b66d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_61dfa5552f08a0102b58811df699b66d">a80af1d92f08a0102b58811df699b613</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-23 09:27:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
